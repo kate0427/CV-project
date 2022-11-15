@@ -21,8 +21,12 @@ p {
 .topPage,
 .navbar {
   background-color: var(--secondary-color);
+}
+
+.topPage {
   text-align: center;
   line-height: 2;
+  padding: 140px 20px;
 }
 
 h1 {
