@@ -23,7 +23,6 @@ p {
   line-height: 1.5;
 }
 a {
-  text-decoration: none;
   color: #333333;
 }
 a:hover {
@@ -31,7 +30,6 @@ a:hover {
 }
 a:visited {
   color: var(--branding-color);
-  text-decoration: none;
 }
 .topPage,
 .navbar {
