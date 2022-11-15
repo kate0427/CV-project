@@ -22,7 +22,17 @@ p {
   font-size: 25px;
   line-height: 1.5;
 }
-
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  color: var(--branding-color);
+}
+a:visited {
+  color: var(--branding-color);
+  text-decoration: none;
+}
 .topPage,
 .navbar {
   background-color: var(--secondary-color);
@@ -68,29 +78,27 @@ p {
   padding: 0 60px;
 }
 
-.aboutSection h1 {
+.contentContainer h1 {
   font-size: 52px;
 }
-.aboutSection h2 {
+.contentContainer h2 {
   font-size: 28px;
 }
 
-.aboutSection p {
+.contentContainer p {
   font-size: 20px;
   text-align: justify;
 }
 
-.aboutSection {
+.contentContainer {
   padding: 140px 0;
 }
-.aboutSectionContent {
+.content {
   margin: 0 25px;
 }
 .myPhoto {
   border-radius: 5px;
   width: 75%;
-  display: block;
-  margin: auto;
 }
 
 @media (max-width: 900px) {
@@ -111,19 +119,17 @@ p {
     padding: 70px 0;
     margin-bottom: 50px;
   }
-  .aboutSection {
-    text-align: center;
+  .contentContainer {
     padding: 0;
   }
-  .aboutSection h1 {
+  .contentContainer h1 {
     font-size: 34px;
   }
-  .aboutSection h2 {
+  .contentContainer h2 {
     font-size: 18px;
   }
 
-  .aboutSection p {
+  .contentContainer p {
     font-size: 15px;
-    text-align: justify;
   }
 }
