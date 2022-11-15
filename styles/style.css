@@ -68,6 +68,31 @@ p {
   padding: 0 60px;
 }
 
+.aboutSection h1 {
+  font-size: 52px;
+}
+.aboutSection h2 {
+  font-size: 28px;
+}
+
+.aboutSection p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.aboutSection {
+  padding: 140px 0;
+}
+.aboutSectionContent {
+  margin: 0 25px;
+}
+.myPhoto {
+  border-radius: 5px;
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
 @media (max-width: 900px) {
   .topPage h1 {
     font-size: 50px;
@@ -85,5 +110,20 @@ p {
   .topPage {
     padding: 70px 0;
     margin-bottom: 50px;
+  }
+  .aboutSection {
+    text-align: center;
+    padding: 0;
+  }
+  .aboutSection h1 {
+    font-size: 34px;
+  }
+  .aboutSection h2 {
+    font-size: 18px;
+  }
+
+  .aboutSection p {
+    font-size: 15px;
+    text-align: justify;
   }
 }
