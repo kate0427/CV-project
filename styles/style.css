@@ -24,13 +24,41 @@ p {
 }
 a {
   color: #333333;
+  text-decoration: none;
 }
 a:hover {
   color: var(--branding-color);
 }
-a:visited {
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 90px;
+  color: #333333;
+  font-size: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
   color: var(--branding-color);
 }
+
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
+}
+
+.navbar-toggler-icon {
+  color: var(--branding-color);
+}
+
 .topPage,
 .navbar {
   background-color: var(--secondary-color);
@@ -39,7 +67,7 @@ a:visited {
 .topPage {
   text-align: center;
   line-height: 1.5;
-  padding: 140px 0;
+  padding: 110px 0;
 }
 
 .topPage h1 {
@@ -56,6 +84,7 @@ a:visited {
   font-size: 20px;
   padding: 15px 25px;
 }
+
 .btn-branding:hover {
   color: #333333;
 }
@@ -77,7 +106,7 @@ a:visited {
 }
 
 .contentContainer h1 {
-  font-size: 52px;
+  font-size: 50px;
 }
 .contentContainer h2 {
   font-size: 28px;
@@ -89,7 +118,7 @@ a:visited {
 }
 
 .contentContainer {
-  padding: 140px 0;
+  padding: 40px 0;
 }
 .content {
   margin: 0 25px;
