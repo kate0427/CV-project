@@ -203,4 +203,7 @@ footer .contact-box p {
   .contentContainer p {
     font-size: 15px;
   }
+  .contact-page p {
+    margin: 30px;
+  }
 }
